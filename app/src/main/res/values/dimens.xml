@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+
+    <dimen name="padding_tiny">4dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+
+    <dimen name="button_corner_radius">12dp</dimen>
+    <dimen name="button_height">56dp</dimen>
+    <dimen name="button_elevation">4dp</dimen>
+
+    <dimen name="icon_small">24dp</dimen>
+    <dimen name="icon_medium">32dp</dimen>
+    <dimen name="icon_large">48dp</dimen>
+    <dimen name="icon_xlarge">64dp</dimen>
+
+    <dimen name="text_tiny">12sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="text_medium">16sp</dimen>
+    <dimen name="text_large">20sp</dimen>
+    <dimen name="text_xlarge">24sp</dimen>
+    <dimen name="text_xxlarge">32sp</dimen>
+
+    <dimen name="image_thumbnail">80dp</dimen>
+    <dimen name="image_preview">120dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="toolbar_height">56dp</dimen>
+
+    <dimen name="divider_height">1dp</dimen>
+</resources>

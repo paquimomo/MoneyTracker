@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MoneyTracker</string>
+
+    <string name="login_title">Bienvenido</string>
+    <string name="login_subtitle">Gestiona tus gastos de forma inteligente</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="no_account">¿No tienes cuenta?</string>
+    <string name="register_here">Regístrate aquí</string>
+
+    <string name="register_title">Crear Cuenta</string>
+    <string name="register_subtitle">Comienza a controlar tus finanzas</string>
+    <string name="email">Correo electrónico</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="register">Registrarse</string>
+    <string name="have_account">¿Ya tienes cuenta?</string>
+    <string name="login_here">Inicia sesión aquí</string>
+
+    <string name="welcome">¡Hola, %s!</string>
+    <string name="total_expenses">gastos registrados</string>
+    <string name="total_amount">Total: $%.2f</string>
+    <string name="images_count">fotos guardadas</string>
+    <string name="top_category">Categoría principal: %s</string>
+    <string name="add_expense">Agregar Gasto</string>
+    <string name="view_expenses">Ver Gastos</string>
+    <string name="settings">Configuración</string>
+
+    <string name="add_expense_title">Nuevo Gasto</string>
+    <string name="description">Descripción</string>
+    <string name="amount">Monto</string>
+    <string name="category">Categoría</string>
+    <string name="date">Fecha</string>
+    <string name="time">Hora</string>
+    <string name="add_image">Agregar Imagen</string>
+    <string name="remove_image">Quitar Imagen</string>
+    <string name="save">Guardar</string>
+    <string name="image_hint">Toca para agregar una foto</string>
+
+    <string name="edit_expense_title">Editar Gasto</string>
+    <string name="update">Actualizar</string>
+
+    <string name="my_expenses">Mis Gastos</string>
+    <string name="empty_expenses">No hay gastos registrados</string>
+    <string name="empty_expenses_subtitle">Toca el botón + para agregar tu primer gasto</string>
+    <string name="filter">Filtrar</string>
+    <string name="export">Exportar</string>
+    <string name="cleanup">Limpiar</string>
+
+    <string name="all_categories">Todas</string>
+    <string name="food">Alimentación</string>
+    <string name="transport">Transporte</string>
+    <string name="entertainment">Entretenimiento</string>
+    <string name="health">Salud</string>
+    <string name="shopping">Compras</string>
+    <string name="services">Servicios</string>
+    <string name="others">Otros</string>
+
+    <string name="delete_expense">Eliminar Gasto</string>
+    <string name="delete_message">¿Seguro que deseas eliminar este gasto?</string>
+    <string name="delete">Eliminar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="close">Cerrar</string>
+    <string name="edit">Editar</string>
+    <string name="options">Opciones</string>
+
+    <string name="settings_title">Configuración</string>
+    <string name="currency">Moneda</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="save_settings">Guardar</string>
+
+    <string name="about">Acerca de</string>
+    <string name="share">Compartir</string>
+    <string name="backup">Crear Backup</string>
+    <string name="logout">Cerrar Sesión</string>
+
+    <string name="expense_saved">Gasto guardado exitosamente</string>
+    <string name="expense_updated">Gasto actualizado exitosamente</string>
+    <string name="expense_deleted">Gasto eliminado</string>
+    <string name="error_saving">Error al guardar el gasto</string>
+    <string name="error_user">Error: Usuario no identificado</string>
+    <string name="field_required">Campo requerido</string>
+    <string name="invalid_amount">Monto inválido</string>
+    <string name="login_success">¡Bienvenido %s!</string>
+    <string name="login_error">Usuario o contraseña incorrectos</string>
+    <string name="register_success">Usuario registrado exitosamente</string>
+    <string name="register_error">Error al registrar usuario</string>
+
+    <string name="username_min_length">El usuario debe tener al menos 3 caracteres</string>
+    <string name="invalid_email">Email inválido</string>
+    <string name="password_min_length">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="passwords_dont_match">Las contraseñas no coinciden</string>
+    <string name="username_exists">Este usuario ya existe</string>
+    <string name="email_exists">Este email ya está registrado</string>
+
+    <string name="take_photo">Tomar foto</string>
+    <string name="select_from_gallery">Seleccionar de galería</string>
+    <string name="image_options">Opciones de imagen</string>
+    <string name="camera_permission_denied">Permiso de cámara denegado</string>
+    <string name="image_preview">Vista previa</string>
+    <string name="has_image">Este gasto tiene una imagen adjunta</string>
+
+    <string name="expense_report">Reporte de Gastos</string>
+    <string name="share_app">Compartir MoneyTracker</string>
+    <string name="no_expenses_to_export">No hay gastos para exportar</string>
+    <string name="images_cleaned">Imágenes huérfanas eliminadas</string>
+
+    <string name="about_title">Acerca de MoneyTracker</string>
+    <string name="about_message">MoneyTracker v2.0\n\nAplicación para registrar y gestionar gastos personales con funciones avanzadas:\n\n✓ Registro de usuarios\n✓ Captura de fotos de gastos\n✓ Base de datos SQLite\n✓ Exportación de datos\n✓ Estadísticas detalladas\n✓ Filtros por categoría\n\nDesarrollada en Kotlin con Android Studio.</string>
+
+    <string name="share_text">¡Estoy usando MoneyTracker v2.0 para gestionar mis gastos! 📊💰\n\nAhora con registro de usuarios, fotos de gastos y estadísticas avanzadas.\n\n¡Descárgala y pruébala!</string>
+
+    <string name="navigation_drawer_open">Abrir menú</string>
+    <string name="navigation_drawer_close">Cerrar menú</string>
+</resources>

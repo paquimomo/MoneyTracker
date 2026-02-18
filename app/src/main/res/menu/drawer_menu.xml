@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Dashboard" />
+
+        <item
+            android:id="@+id/nav_expenses"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="Mis Gastos" />
+
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="Categorías" />
+
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Mapa de Gastos" />
+
+    </group>
+
+    <item android:title="Aplicación">
+        <menu>
+            <item
+                android:id="@+id/nav_notifications"
+                android:icon="@android:drawable/ic_popup_reminder"
+                android:title="Notificaciones" />
+
+            <item
+                android:id="@+id/nav_shake"
+                android:icon="@android:drawable/ic_menu_rotate"
+                android:title="Agita para Sorpresa" />
+
+            <item
+                android:id="@+id/nav_alarms"
+                android:icon="@android:drawable/ic_lock_idle_alarm"
+                android:title="Alarmas" />
+
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@android:drawable/ic_menu_preferences"
+                android:title="Configuración" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="Acerca de" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Cerrar Sesión" />
+        </menu>
+    </item>
+
+</menu>

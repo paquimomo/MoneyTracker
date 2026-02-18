@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editar Gasto"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"/>
+
+        <EditText
+            android:id="@+id/etDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripción"
+            android:inputType="textCapSentences"
+            android:layout_marginBottom="12dp"/>
+
+        <EditText
+            android:id="@+id/etAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Monto"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="12dp"/>
+
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <Button
+                android:id="@+id/btnPickDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Seleccionar Fecha"/>
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical|start"
+                android:paddingStart="8dp"
+                android:text="--/--/----"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnPickTime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Seleccionar Hora"/>
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_vertical|start"
+                android:paddingStart="8dp"
+                android:text="--:--"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnAddImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Agregar Imagen"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnRemoveImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quitar Imagen"
+            android:visibility="gone"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tvImageHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No hay imagen"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"
+            android:textColor="#888888"/>
+
+        <ImageView
+            android:id="@+id/ivExpenseImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="Imagen del gasto"/>
+
+        <Button
+            android:id="@+id/btnUpdateExpense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar Gasto"
+            android:backgroundTint="@android:color/holo_purple"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+</ScrollView>

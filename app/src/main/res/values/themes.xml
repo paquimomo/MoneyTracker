@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MoneyTracker" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:statusBarColor">@color/primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+    </style>
+
+    <style name="Theme.MoneyTracker.NoActionBar" parent="Theme.MoneyTracker">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="ToolbarStyle" parent="Widget.Material3.Toolbar">
+        <item name="android:background">@color/primary</item>
+        <item name="titleTextColor">@color/text_white</item>
+        <item name="android:elevation">@dimen/card_elevation</item>
+    </style>
+
+    <style name="TextInputLayoutStyle" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary</item>
+        <item name="hintTextColor">@color/primary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+    </style>
+
+    <style name="ButtonPrimary" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/text_white</item>
+        <item name="backgroundTint">@color/primary</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="elevation">@dimen/button_elevation</item>
+    </style>
+
+    <style name="ButtonSecondary" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/primary</item>
+        <item name="strokeColor">@color/primary</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="android:minHeight">@dimen/button_height</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+
+    <style name="FabStyle" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="tint">@color/text_white</item>
+        <item name="backgroundTint">@color/accent</item>
+        <item name="elevation">6dp</item>
+    </style>
+
+    <style name="CardStyle" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="contentPadding">@dimen/padding_medium</item>
+    </style>
+
+    <style name="TextAppearance.Title" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">@dimen/text_xxlarge</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextAppearance.Subtitle" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">@dimen/text_medium</item>
+    </style>
+
+    <style name="TextAppearance.Amount" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textSize">@dimen/text_xxlarge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="ChipStyle" parent="Widget.Material3.Chip.Assist">
+        <item name="chipCornerRadius">20dp</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="chipBackgroundColor">@color/primary</item>
+    </style>
+</resources>
