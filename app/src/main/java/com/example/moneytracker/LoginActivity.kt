@@ -75,7 +75,6 @@ class LoginActivity : AppCompatActivity() {
             binding.btnLogin.isEnabled = true
 
             if (user != null) {
-                // Login exitoso
                 Toast.makeText(
                     this@LoginActivity,
                     "¡Bienvenido ${user.username}!",
